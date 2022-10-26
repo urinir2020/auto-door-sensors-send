@@ -1,5 +1,5 @@
 {
-    "name": "Auto Door Sensors Receive",
+    "name": "Auto Door Ultrasonic Receive",
     "description": "",
     "dependencies": {
         "core": "*",

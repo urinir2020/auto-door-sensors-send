@@ -1,5 +1,5 @@
 radio.onReceivedNumber(function (receivedNumber) {
-    if (receivedNumber == 1) {
+    if (receivedNumber < 10) {
         SuperBit.Servo2(SuperBit.enServo.S1, 220)
         basic.showArrow(ArrowNames.West)
     } else {
