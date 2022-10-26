@@ -1,5 +1,5 @@
 {
-    "name": "Auto Door Sensors Send",
+    "name": "Auto Door Sensors Receive",
     "description": "",
     "dependencies": {
         "core": "*",

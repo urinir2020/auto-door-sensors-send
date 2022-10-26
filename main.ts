@@ -1,10 +1,9 @@
+SuperBit.Servo2(SuperBit.enServo.S1, 110)
 radio.setGroup(100)
 basic.forever(function () {
-    if (ModuleWorld_Digital.Button(ModuleWorld_Digital.mwDigitalNum.P0P1, ModuleWorld_Digital.enButton.Press)) {
-        radio.sendNumber(1)
-        basic.showArrow(ArrowNames.East)
+    if (receivedNumber == 0) {
+        SuperBit.Servo2(SuperBit.enServo.S1, 110)
     } else {
-        radio.sendNumber(0)
-        basic.showArrow(ArrowNames.West)
+        SuperBit.Servo2(SuperBit.enServo.S1, 220)
     }
 })
